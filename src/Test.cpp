@@ -1,5 +1,7 @@
 #include <ctime>
 #include <iostream>
+#include "include/Person.hpp"
+#include "include/Game.hpp"
 
 int main()
 {
