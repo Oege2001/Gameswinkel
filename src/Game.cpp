@@ -17,7 +17,7 @@ float Game::calculateCurrentPrice() const{
     std::cout << std::asctime(std::localtime(&result));
     time_t curr_time = time(NULL);
     tm *tm_local = localtime(&curr_time);
-    return getOriginalPrice()* (1 - (0.3 * (tm_local->tm_year - getReleaseDate())));
+    return getOriginalPrice()* (1-(0.3 * (tm_local->tm_year - getReleaseDate())));
    
 };
 

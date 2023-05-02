@@ -36,6 +36,8 @@ int main()
     p2.sell(g1, p1);
     
     // Druk personen p1, p2 en p3 nu af naar de console
+
+    
     
     return 0;
 }
