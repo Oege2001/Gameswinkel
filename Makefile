@@ -8,7 +8,7 @@ CXXFLAGS = -std=c++17 -Wall
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
-APPNAME = Test
+APPNAME = main
 EXT = .cpp
 SRCDIR = src
 OBJDIR = obj

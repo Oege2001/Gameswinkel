@@ -21,6 +21,7 @@ class Game{
     void setOriginalPrice(float originalPrice);
 
     float calculateCurrentPrice();
+    
     friend std::ostream& operator<<(std::ostream& os, const Game& game);
     
 };

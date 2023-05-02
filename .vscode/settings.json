@@ -4,6 +4,11 @@
             "cwd": "c:\\Users\\Oege\\school HU\\HU JAAR 1\\Blok D deel 2\\AP\\Gameswinkel",
             "binaryPath": "c:\\Users\\Oege\\school HU\\HU JAAR 1\\Blok D deel 2\\AP\\Gameswinkel\\Test",
             "binaryArgs": []
+        },
+        {
+            "cwd": "c:\\Users\\Oege\\school HU\\HU JAAR 1\\Blok D deel 2\\AP\\Gameswinkel",
+            "binaryPath": "c:\\Users\\Oege\\school HU\\HU JAAR 1\\Blok D deel 2\\AP\\Gameswinkel\\main",
+            "binaryArgs": []
         }
     ],
     "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
