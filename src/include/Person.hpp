@@ -1,3 +1,4 @@
+#pragma once
 #include <string>
 #include <ostream>
 #include <sstream>
@@ -12,21 +13,22 @@ class Person{
     std::list<Game> games;
     
     public:
-    Person();
+    Person(){name="", budget = 0;}
     Person(std::string name, float budget);
-    float getBudget();
+    
+    
     bool buy(Game game);
     bool sell(Game game, Person& buyer);
 
-    Person getBudget(float);
+    float getBudget() const;
     void setBudget(float budget);
 
-    Game getGames(std::list<Game>);
+    std::list<Game> getGames();
     void setGames(std::list<Game> games);
     void addGame(Game game);
     void removeGame(Game game);
 
-    Person getName(std::string);
+    std::string getName() const;
     void setName(std::string name);
 
     friend std::ostream& operator<<(std::ostream& os, const Person& buyer);
