@@ -1,7 +1,7 @@
 #include <iostream>
 #include "include/Person.hpp"
 
-Person::Person(std::string name, float budget){
+Person::Person(){
     name = "";
     budget = 0;
 }

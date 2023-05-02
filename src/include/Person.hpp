@@ -12,6 +12,7 @@ class Person{
     std::list<Game> games;
     
     public:
+    Person();
     Person(std::string name, float budget);
     float getBudget();
     bool buy(Game game);

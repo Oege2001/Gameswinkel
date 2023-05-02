@@ -1,7 +1,7 @@
 #include <iostream>
 #include "include/Game.hpp"
 
-Game::Game(std::string title, int releaseDate, float originalPrice){
+Game::Game(){
     title = "";
     releaseDate = 0;
     originalPrice = 0;
@@ -14,6 +14,7 @@ std::ostream &operator<<(std::ostream &os, const Game &rhs) {
         os << "title: " << rhs.title << " (release date: " << rhs.releaseDate << ", ";
         os << "original price: " << rhs.originalPrice << ", ";
         os << "release date: " << rhs.releaseDate << ", ";
+
     }
     os << "\n";
     return os;
